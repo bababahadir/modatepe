@@ -5,11 +5,13 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { getTranslations, type Locale } from '@/lib/i18n';
 import { MessageCircle, Users, Wifi, Car, Coffee } from 'lucide-react';
-import Deluxev from "@/images/deluxetasev2.jpeg";
-import Tasev from "@/images/normaltasev.jpeg";
-import Deluxoda from "@/images/deluxeoda.jpeg";
-import Oda from "@/images/normaloda.jpeg";
-import deluxeor from "@/images/bigbungalov.jpeg";
+
+const Deluxev = "/images/deluxetasev2.jpeg";
+const Tasev = "/images/normaltasev.jpeg";
+const Deluxoda = "/images/deluxeoda.jpeg";
+const Oda = "/images/normaloda.jpeg";
+const deluxeor = "/images/bigbungalov.jpeg";
+
 interface AccommodationPageProps {
   params: { locale: Locale };
 }

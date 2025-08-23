@@ -6,26 +6,17 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { GoogleMap } from '@/components/google-map';
 import { getTranslations, type Locale } from '@/lib/i18n';
 import { MessageCircle, MapPin, Utensils, Home, Eye } from 'lucide-react';
-import thumbnail from "@/images/Thumbnail.jpeg";
-import Konaklama from "@/images/bigbungalov.jpeg";
-import Et from "@/images/etstok.jpeg";
-import Manzara from "@/images/manzara4k.jpeg";
-import galeri1 from "@/images/kahvalt2.jpeg";
-import galeri2 from "@/images/galeri2.jpeg";
-import galeri3 from "@/images/koridor2.jpeg";
-import galeri4 from "@/images/galeri4.jpeg";
-import galeri5 from "@/images/galei5.jpeg";
-import galeri6 from "@/images/koridorkaranlik.jpeg";
 
-
-
-<Image
-  src="/images/resim1.jpg"
-  alt="Ürün 1"
-  width={800}   // genişlik
-  height={600}  // yükseklik
-  className="object-cover"
-/>
+const thumbnail = "/images/Thumbnail.jpeg";
+const Konaklama = "/images/bigbungalov.jpeg";
+const Et = "/images/etstok.jpeg";
+const Manzara = "/images/manzara4k.jpeg";
+const galeri1 = "/images/kahvalt2.jpeg";
+const galeri2 = "/images/galeri2.jpeg";
+const galeri3 = "/images/koridor2.jpeg";
+const galeri4 = "/images/galeri4.jpeg";
+const galeri5 = "/images/galei5.jpeg";
+const galeri6 = "/images/koridorkaranlik.jpeg";
 
 interface HomePageProps {
   params: { locale: Locale };
