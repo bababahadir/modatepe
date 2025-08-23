@@ -32,7 +32,7 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
 
   const menuItems = {
     breakfast: [
-      { name: 'Serpme Kahvaltı', price: '₺600', description: 'Geleneksel Köy kahvaltısı' }
+      { name: 'Serpme Kahvaltı', price: '₺600', description: 'Sıcaklar dahil kişi başı kahvaltı' }
     ],
     mainCourses: [
       { name: '250g dana eti', price: '₺700', description: 'El kesimi taze dana eti' },
