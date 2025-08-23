@@ -32,7 +32,7 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
 
   const menuItems = {
     breakfast: [
-      { name: 'Serpme Kahvaltı', price: '₺600', description: 'Sıcaklar dahil kişi başı kahvaltı' }
+      { name: 'Serpme Kahvaltı', price: '₺600', description: 'Sıcaklar dahil kişi başı kahvaltı ücretimizdir. Kayana Kuymak Kalem böreği Cips Turşu ve Patates kavurması sahanda yumurta semaver ve soğuklar dahildir. Tek kişilik kahvaltı verilmemekte ve çocuk için sevis ücreti alınmamaktadır' }
     ],
     mainCourses: [
       { name: '250g dana eti', price: '₺700', description: 'El kesimi taze dana eti' },
