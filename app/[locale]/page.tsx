@@ -6,16 +6,16 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { GoogleMap } from '@/components/google-map';
 import { getTranslations, type Locale } from '@/lib/i18n';
 import { MessageCircle, MapPin, Utensils, Home, Eye } from 'lucide-react';
-import thumbnail from "@/İmages/Thumbnail.jpeg";
-import Konaklama from "@/İmages/bigbungalov.jpeg";
-import Et from "@/İmages/etstok.jpeg";
-import Manzara from "@/İmages/manzara4k.jpeg";
-import galeri1 from "@/İmages/kahvalt2.jpeg";
-import galeri2 from "@/İmages/galeri2.jpeg";
-import galeri3 from "@/İmages/koridor2.jpeg";
-import galeri4 from "@/İmages/galeri4.jpeg";
-import galeri5 from "@/İmages/galei5.jpeg";
-import galeri6 from "@/İmages/koridorkaranlik.jpeg";
+import thumbnail from "@/images/Thumbnail.jpeg";
+import Konaklama from "@/images/bigbungalov.jpeg";
+import Et from "@/images/etstok.jpeg";
+import Manzara from "@/images/manzara4k.jpeg";
+import galeri1 from "@/images/kahvalt2.jpeg";
+import galeri2 from "@/images/galeri2.jpeg";
+import galeri3 from "@/images/koridor2.jpeg";
+import galeri4 from "@/images/galeri4.jpeg";
+import galeri5 from "@/images/galei5.jpeg";
+import galeri6 from "@/images/koridorkaranlik.jpeg";
 
 
 
