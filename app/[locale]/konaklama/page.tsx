@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import BigbungalovImage from '/public/images/bigbungalov.jpeg';
-import NormalodaImage from '/public/images/normaloda.jpeg';
-import DeluxeodaImage from '/public/images/deluxeoda.jpeg';
-import NormaltasevImage from '/public/images/normaltasev.jpeg';
-import Deluxetasev2Image from '/public/images/deluxetasev2.jpeg';
+import BigbungalovImage from '@/app/İmages/bigbungalov.jpeg';
+import NormalodaImage from '@/app/İmages/normaloda.jpeg';
+import DeluxeodaImage from '@/app/İmages/deluxeoda.jpeg';
+import NormaltasevImage from '@/app/İmages/normaltasev.jpeg';
+import Deluxetasev2Image from '@/app/İmages/deluxetasev2.jpeg';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
