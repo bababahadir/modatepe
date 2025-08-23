@@ -53,7 +53,7 @@ export async function POST(request: NextRequest) {
     const validatedData = feedbackSchema.parse(body);
 
     // 🔑 Gmail SMTP transporter
-    const transporter = nodemailer.createTransport({
+    const transporter = nodemailer.createTransporter({
       service: "gmail",
       auth: {
         user: process.env.GMAIL_USER,

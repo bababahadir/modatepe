@@ -27,7 +27,6 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
   const menuItems = {
     breakfast: [
       { name: 'Serpme Kahvaltı', price: '₺600', description: 'Geleneksel Köy kahvaltısı' }
-
     ],
     mainCourses: [
       { name: '250g dana eti', price: '₺700', description: 'El kesimi taze dana eti' },
@@ -38,7 +37,6 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
     ],
     desserts: [
       { name: 'Sütlaç', price: '₺125', description: 'Ev yapımı sütlaç' }
-
     ]
   };
 

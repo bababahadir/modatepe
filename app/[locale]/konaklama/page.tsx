@@ -6,12 +6,6 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { getTranslations, type Locale } from '@/lib/i18n';
 import { MessageCircle, Users, Wifi, Car, Coffee } from 'lucide-react';
 
-const Deluxev = "/images/deluxetasev2.jpeg";
-const Tasev = "/images/normaltasev.jpeg";
-const Deluxoda = "/images/deluxeoda.jpeg";
-const Oda = "/images/normaloda.jpeg";
-const deluxeor = "/images/bigbungalov.jpeg";
-
 interface AccommodationPageProps {
   params: { locale: Locale };
 }
@@ -35,30 +29,30 @@ export default async function AccommodationPage({ params: { locale } }: Accommod
       title: translations.accommodation.rooms.normalRoom.title,
       description: translations.accommodation.rooms.normalRoom.description,
       count: translations.accommodation.rooms.normalRoom.count,
-      image: Oda,
+      image: "/images/normaloda.jpeg",
       amenities: ['WiFi', 'Klima', '2 Kişilik', 'Banyo']
     },
     {
       title: translations.accommodation.rooms.deluxeRoom.title,
       description: translations.accommodation.rooms.deluxeRoom.description,
       count: translations.accommodation.rooms.deluxeRoom.count,
-      image: Deluxoda,
+      image: "/images/deluxeoda.jpeg",
       amenities: ['WiFi', 'Klima', '2+2 Kişilik', 'Geniş oda']
     },
     {
       title: translations.accommodation.rooms.normalStoneHouse.title,
       description: translations.accommodation.rooms.normalStoneHouse.description,
       count: translations.accommodation.rooms.normalStoneHouse.count,
-      image: Tasev,
+      image: "/images/normaltasev.jpeg",
       amenities: ['WiFi', 'Çift Banyo','2+2 Kişilik']
     },
     {
       title: translations.accommodation.rooms.deluxeStoneHouse.title,
       description: translations.accommodation.rooms.deluxeStoneHouse.description,
       count: translations.accommodation.rooms.deluxeStoneHouse.count,
-      image: Deluxev,  // <-- buraya virgül eklendi
+      image: "/images/deluxetasev2.jpeg",
       amenities: ['WiFi', 'Çift Kat', '5+2 Kişilik','Çift Banyo']
-}
+    }
   ];
 
   const faqs = [
@@ -85,7 +79,7 @@ export default async function AccommodationPage({ params: { locale } }: Accommod
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <Image
-          src={deluxeor}
+          src="/images/bigbungalov.jpeg"
           alt={translations.accommodation.title}
           fill
           className="object-cover"
