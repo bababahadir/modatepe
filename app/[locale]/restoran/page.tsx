@@ -42,7 +42,7 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
       { name: '300g tavuk ızgara porsiyon', price: '₺700', description: 'Banvit kemiksiz pirzola' }
     ],
     desserts: [
-      { name: 'Sütlaç', price: '₺125', description: 'Hamsiköy sütlaçı' }
+      { name: 'Sütlaç', price: '₺125', description: 'Hamsiköy sütlacı' }
     ]
   };
 
