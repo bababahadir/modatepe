@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
+import BigbungalovImage from '/public/images/bigbungalov.jpeg';
+import NormalodaImage from '/public/images/normaloda.jpeg';
+import DeluxeodaImage from '/public/images/deluxeoda.jpeg';
+import NormaltasevImage from '/public/images/normaltasev.jpeg';
+import Deluxetasev2Image from '/public/images/deluxetasev2.jpeg';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
@@ -29,28 +34,28 @@ export default async function AccommodationPage({ params: { locale } }: Accommod
       title: translations.accommodation.rooms.normalRoom.title,
       description: translations.accommodation.rooms.normalRoom.description,
       count: translations.accommodation.rooms.normalRoom.count,
-      image: "/images/normaloda.jpeg",
+      image: NormalodaImage,
       amenities: ['WiFi', 'Klima', '2 Kişilik', 'Banyo']
     },
     {
       title: translations.accommodation.rooms.deluxeRoom.title,
       description: translations.accommodation.rooms.deluxeRoom.description,
       count: translations.accommodation.rooms.deluxeRoom.count,
-      image: "/images/deluxeoda.jpeg",
+      image: DeluxeodaImage,
       amenities: ['WiFi', 'Klima', '2+2 Kişilik', 'Geniş oda']
     },
     {
       title: translations.accommodation.rooms.normalStoneHouse.title,
       description: translations.accommodation.rooms.normalStoneHouse.description,
       count: translations.accommodation.rooms.normalStoneHouse.count,
-      image: "/images/normaltasev.jpeg",
+      image: NormaltasevImage,
       amenities: ['WiFi', 'Çift Banyo','2+2 Kişilik']
     },
     {
       title: translations.accommodation.rooms.deluxeStoneHouse.title,
       description: translations.accommodation.rooms.deluxeStoneHouse.description,
       count: translations.accommodation.rooms.deluxeStoneHouse.count,
-      image: "/images/deluxetasev2.jpeg",
+      image: Deluxetasev2Image,
       amenities: ['WiFi', 'Çift Kat', '5+2 Kişilik','Çift Banyo']
     }
   ];
@@ -79,7 +84,7 @@ export default async function AccommodationPage({ params: { locale } }: Accommod
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <Image
-          src="/images/bigbungalov.jpeg"
+          src={BigbungalovImage}
           alt={translations.accommodation.title}
           fill
           className="object-cover"

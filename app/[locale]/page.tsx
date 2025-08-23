@@ -1,6 +1,16 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import ThumbnailImage from '/public/images/Thumbnail.jpeg';
+import Manzara4kImage from '/public/images/manzara4k.jpeg';
+import EtstokImage from '/public/images/etstok.jpeg';
+import BigbungalovImage from '/public/images/bigbungalov.jpeg';
+import Kahvalt2Image from '/public/images/kahvalt2.jpeg';
+import Galeri2Image from '/public/images/galeri2.jpeg';
+import Koridor2Image from '/public/images/koridor2.jpeg';
+import Galeri4Image from '/public/images/galeri4.jpeg';
+import Galei5Image from '/public/images/galei5.jpeg';
+import KoridorkaranlikImage from '/public/images/koridorkaranlik.jpeg';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { GoogleMap } from '@/components/google-map';
@@ -30,29 +40,29 @@ export default async function HomePage({ params: { locale } }: HomePageProps) {
       icon: Eye,
       title: translations.home.highlights.scenic.title,
       description: translations.home.highlights.scenic.description,
-      image: "/images/manzara4k.jpeg"
+      image: Manzara4kImage
     },
     {
       icon: Utensils,
       title: translations.home.highlights.local.title,
       description: translations.home.highlights.local.description,
-      image: "/images/etstok.jpeg"
+      image: EtstokImage
     },
     {
       icon: Home,
       title: translations.home.highlights.comfort.title,
       description: translations.home.highlights.comfort.description,
-      image: "/images/bigbungalov.jpeg"
+      image: BigbungalovImage
     }
   ];
 
   const galleryImages = [
-    "/images/kahvalt2.jpeg",
-    "/images/galeri2.jpeg",
-    "/images/koridor2.jpeg",
-    "/images/galeri4.jpeg",
-    "/images/galei5.jpeg",
-    "/images/koridorkaranlik.jpeg"
+    Kahvalt2Image,
+    Galeri2Image,
+    Koridor2Image,
+    Galeri4Image,
+    Galei5Image,
+    KoridorkaranlikImage
   ];
 
   return (
@@ -60,7 +70,7 @@ export default async function HomePage({ params: { locale } }: HomePageProps) {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <Image
-          src="/images/Thumbnail.jpeg"
+          src={ThumbnailImage}
           alt={translations.home.hero.title}
           fill
           className="object-cover"
