@@ -13,14 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: baseUrl,
     lastModified: new Date(),
     changeFrequency: 'monthly',
-    priority: 1,
-    alternates: {
-      languages: {
-        tr: `${baseUrl}/tr`,
-        en: `${baseUrl}/en`,
-        ar: `${baseUrl}/ar`,
-      },
-    },
+    priority: 1
   });
 
   // Add pages for each locale
