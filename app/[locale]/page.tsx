@@ -1,6 +1,15 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import manzara4k from '/images/manzara4k.jpeg';
+import galeri2 from '/images/galeri2.jpeg';
+import kahvalti from '/images/Kahvalti.jpeg';
+import koridor from '/images/koridor.jpeg';
+import galeri4 from '/images/galeri4.jpeg';
+import bungalov from '/images/bungalov.jpeg';
+import manzaraiyi from '/images/manzaraiyi.jpeg';
+import et from '/images/Et.jpeg';
+import normaloda from '/images/normaloda.jpeg';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { GoogleMap } from '@/components/google-map';
@@ -30,29 +39,29 @@ export default async function HomePage({ params: { locale } }: HomePageProps) {
       icon: Eye,
       title: translations.home.highlights.scenic.title,
       description: translations.home.highlights.scenic.description,
-      image: '/images/manzara4k.jpeg'
+      image: manzara4k
     },
     {
       icon: Utensils,
       title: translations.home.highlights.local.title,
       description: translations.home.highlights.local.description,
-      image: '/images/Et.jpeg'
+      image: et
     },
     {
       icon: Home,
       title: translations.home.highlights.comfort.title,
       description: translations.home.highlights.comfort.description,
-      image: '/images/normaloda.jpeg'
+      image: normaloda
     }
   ];
 
   const galleryImages = [
-    '/images/galeri2.jpeg',
-    '/images/Kahvalti.jpeg',
-    '/images/koridor.jpeg',
-    '/images/galeri4.jpeg',
-    '/images/bungalov.jpeg',
-    '/images/manzaraiyi.jpeg'
+    galeri2,
+    kahvalti,
+    koridor,
+    galeri4,
+    bungalov,
+    manzaraiyi
   ];
 
   return (
@@ -60,7 +69,7 @@ export default async function HomePage({ params: { locale } }: HomePageProps) {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <Image
-          src="/images/manzara4k.jpeg"
+          src={manzara4k}
           alt={translations.home.hero.title}
           fill
           className="object-cover"

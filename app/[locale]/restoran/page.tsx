@@ -1,5 +1,11 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
+import et from '/images/Et.jpeg';
+import kahvalti from '/images/Kahvalti.jpeg';
+import kahvalt2 from '/images/kahvalt2.jpeg';
+import koridor from '/images/koridor.jpeg';
+import koridor2 from '/images/koridor2.jpeg';
+import vaybe from '/images/vaybe.jpeg';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -41,12 +47,12 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
   };
 
   const galleryImages = [
-    '/images/Et.jpeg',
-    '/images/Kahvalti.jpeg',
-    '/images/kahvalt2.jpeg',
-    '/images/koridor.jpeg',
-    '/images/koridor2.jpeg',
-    '/images/vaybe.jpeg'
+    et,
+    kahvalti,
+    kahvalt2,
+    koridor,
+    koridor2,
+    vaybe
   ];
 
   return (
@@ -54,7 +60,7 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <Image
-          src="/images/Et.jpeg"
+          src={et}
           alt={translations.restaurant.title}
           fill
           className="object-cover"
