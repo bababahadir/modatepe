@@ -35,11 +35,11 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
       { name: 'Serpme Kahvaltı', price: '₺600', description: 'Sıcaklar dahil kişi başı kahvaltı ücretimizdir. Kayana Kuymak Kalem böreği Cips Turşu ve Patates kavurması sahanda yumurta semaver ve soğuklar dahildir. Tek kişilik kahvaltı verilmemekte ve çocuk için sevis ücreti alınmamaktadır' }
     ],
     mainCourses: [
-      { name: '250g dana eti', price: '₺700', description: 'El kesimi taze dana eti' },
-      { name: '250g kuzu eti', price: '₺700', description: 'El kesimi taze kuzu eti' },
-      { name: '300g köfte', price: '₺500', description: 'Orijinal Akcaabat köfetsi' },
-      { name: 'Saç kavurma', price: '₺700', description: 'Geleneksel köy tarifi' },
-      { name: '300g tavuk eti', price: '₺700', description: 'Yetişkin tavuk eti' }
+      { name: '250g dana antrikot porsiyon', price: '₺700', description: 'Yanlızca yerli jersey' },
+      { name: '250g kuzu pirzola porsiyon', price: '₺700', description: 'Balıkesir kıvırcık kuzu' },
+      { name: '300g köfte porsiyon', price: '₺500', description: 'Orijinal Akcaabat jersey köfte' },
+      { name: 'Saç kavurma porsiyon', price: '₺700', description: 'Meşhur jersey saç kavurma' },
+      { name: '300g tavuk ızgara porsiyon', price: '₺700', description: 'Banvit kemiksiz pirzola' }
     ],
     desserts: [
       { name: 'Sütlaç', price: '₺125', description: 'Ev yapımı sütlaç' }
