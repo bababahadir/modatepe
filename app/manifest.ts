@@ -1,14 +1,14 @@
-import { MetadataRoute } from 'next';
+import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Modatepe Restoran & Konaklama',
-    short_name: 'Modatepe',
-    description: 'Trabzon Ortahisar\'da yöresel lezzetler ve konforlu konaklama hizmeti',
+    name: 'Next.js App',
+    short_name: 'NextJS App',
+    description: 'A Next.js app',
     start_url: '/',
     display: 'standalone',
-    background_color: '#0F3D2E',
-    theme_color: '#0F3D2E',
+    background_color: '#fff',
+    theme_color: '#000',
     icons: [
       {
         src: '/favicon.ico',
@@ -16,5 +16,5 @@ export default function manifest(): MetadataRoute.Manifest {
         type: 'image/x-icon',
       },
     ],
-  };
+  }
 }
