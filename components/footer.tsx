@@ -21,7 +21,7 @@ export function Footer({ locale, translations }: FooterProps) {
   const socialLinks = [
     { name: 'Facebook', href: 'https://www.facebook.com/modateperestaurant/about/?_rdr', icon: Facebook },
     { name: 'Instagram', href: 'https://www.instagram.com/modateperestoran/', icon: Instagram },
-    { name: 'FaTripadvisor', href: 'https://www.tripadvisor.com.tr/Restaurant_Review-g298039-d13847054-Reviews-Modatepe_Restoran-Trabzon_Ortahisar_Turkish_Black_Sea_Coast.html', icon: FaTripadvisor },
+    { name: 'Tripadvisor', href: 'https://www.tripadvisor.com.tr/Restaurant_Review-g298039-d13847054-Reviews-Modatepe_Restoran-Trabzon_Ortahisar_Turkish_Black_Sea_Coast.html', icon: FaTripadvisor },
   ];
 
   return (
