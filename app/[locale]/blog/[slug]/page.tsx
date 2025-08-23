@@ -89,8 +89,7 @@ export default async function BlogPostPage({
   const post = postFromFS ?? {
     title: 'Karadeniz Mutfağının En Sevilen Lezzetleri',
     content: `<p>Karadeniz mutfağı, Türkiye'nin en zengin ve çeşitli mutfaklarından biridir...</p>`,
-    image:
-      'https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: '/images/Et.jpeg',
     date: '2024-01-15',
     readTime: '5 dakika',
     author: 'Modatepe Mutfak',
@@ -100,14 +99,12 @@ export default async function BlogPostPage({
   const relatedPosts = [
     {
       title: 'Trabzon Ortahisar Gezilecek Yerler',
-      image:
-        'https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/images/manzaraiyi.jpeg',
       slug: 'trabzon-ortahisar-gezi-rehberi',
     },
     {
       title: 'Doğa İçinde Huzurlu Konaklama',
-      image:
-        'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/images/normaloda.jpeg',
       slug: 'doga-icinde-huzurlu-konaklama',
     },
   ];

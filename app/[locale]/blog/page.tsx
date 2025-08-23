@@ -26,7 +26,7 @@ export default async function BlogPage({ params: { locale } }: BlogPageProps) {
     {
       title: 'Karadeniz Mutfağının En Sevilen Lezzetleri',
       excerpt: 'Karadeniz mutfağının zengin lezzetlerini keşfedin. Hamsi, karalahana ve mısır ekmeği gibi bölgesel tatları...',
-      image: 'https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/Et.jpeg',
       date: '2024-01-15',
       readTime: '5 dakika',
       author: 'Modatepe Mutfak',
@@ -36,7 +36,7 @@ export default async function BlogPage({ params: { locale } }: BlogPageProps) {
     {
       title: 'Trabzon Ortahisar Gezilecek Yerler',
       excerpt: 'Trabzon Ortahisar bölgesinde görülmesi gereken tarihi ve doğal güzellikler hakkında rehber...',
-      image: 'https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/manzaraiyi.jpeg',
       date: '2024-01-10',
       readTime: '7 dakika',
       author: 'Modatepe',
@@ -46,7 +46,7 @@ export default async function BlogPage({ params: { locale } }: BlogPageProps) {
     {
       title: 'Doğa İçinde Huzurlu Konaklama',
       excerpt: 'Şehrin gürültüsünden uzakta, doğayla iç içe bir konaklama deneyimi yaşamanın faydaları...',
-      image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/images/normaloda.jpeg',
       date: '2024-01-05',
       readTime: '4 dakika',
       author: 'Modatepe',

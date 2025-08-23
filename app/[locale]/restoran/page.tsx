@@ -41,12 +41,12 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
   };
 
   const galleryImages = [
-    'https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=800'
+    '/images/Et.jpeg',
+    '/images/Kahvalti.jpeg',
+    '/images/kahvalt2.jpeg',
+    '/images/koridor.jpeg',
+    '/images/koridor2.jpeg',
+    '/images/vaybe.jpeg'
   ];
 
   return (
@@ -54,7 +54,7 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <Image
-          src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="/images/Et.jpeg"
           alt={translations.restaurant.title}
           fill
           className="object-cover"

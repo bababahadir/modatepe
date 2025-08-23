@@ -30,29 +30,29 @@ export default async function HomePage({ params: { locale } }: HomePageProps) {
       icon: Eye,
       title: translations.home.highlights.scenic.title,
       description: translations.home.highlights.scenic.description,
-      image: 'https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/images/manzara4k.jpeg'
     },
     {
       icon: Utensils,
       title: translations.home.highlights.local.title,
       description: translations.home.highlights.local.description,
-      image: 'https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/images/Et.jpeg'
     },
     {
       icon: Home,
       title: translations.home.highlights.comfort.title,
       description: translations.home.highlights.comfort.description,
-      image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/images/normaloda.jpeg'
     }
   ];
 
   const galleryImages = [
-    'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg?auto=compress&cs=tinysrgb&w=800'
+    '/images/galeri2.jpeg',
+    '/images/Kahvalti.jpeg',
+    '/images/koridor.jpeg',
+    '/images/galeri4.jpeg',
+    '/images/bungalov.jpeg',
+    '/images/manzaraiyi.jpeg'
   ];
 
   return (
@@ -60,7 +60,7 @@ export default async function HomePage({ params: { locale } }: HomePageProps) {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <Image
-          src="https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="/images/manzara4k.jpeg"
           alt={translations.home.hero.title}
           fill
           className="object-cover"
