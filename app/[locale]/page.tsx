@@ -1,16 +1,6 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import ThumbnailImage from '/images/Thumbnail.jpeg';
-import Manzara4kImage from '/images/manzara4k.jpeg';
-import EtstokImage from '/images/etstok.jpeg';
-import BigbungalovImage from '/images/bigbungalov.jpeg';
-import Kahvalt2Image from '/images/kahvalt2.jpeg';
-import Galeri2Image from '/images/galeri2.jpeg';
-import Koridor2Image from '/images/koridor2.jpeg';
-import Galeri4Image from '/images/galeri4.jpeg';
-import Galei5Image from '/images/galei5.jpeg';
-import KoridorkaranlikImage from '/images/koridorkaranlik.jpeg';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { GoogleMap } from '@/components/google-map';
@@ -40,29 +30,29 @@ export default async function HomePage({ params: { locale } }: HomePageProps) {
       icon: Eye,
       title: translations.home.highlights.scenic.title,
       description: translations.home.highlights.scenic.description,
-      image: Manzara4kImage
+      image: 'https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       icon: Utensils,
       title: translations.home.highlights.local.title,
       description: translations.home.highlights.local.description,
-      image: EtstokImage
+      image: 'https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       icon: Home,
       title: translations.home.highlights.comfort.title,
       description: translations.home.highlights.comfort.description,
-      image: BigbungalovImage
+      image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800'
     }
   ];
 
   const galleryImages = [
-    Kahvalt2Image,
-    Galeri2Image,
-    Koridor2Image,
-    Galeri4Image,
-    Galei5Image,
-    KoridorkaranlikImage
+    'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg?auto=compress&cs=tinysrgb&w=800'
   ];
 
   return (
@@ -70,7 +60,7 @@ export default async function HomePage({ params: { locale } }: HomePageProps) {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <Image
-          src={ThumbnailImage}
+          src="https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg?auto=compress&cs=tinysrgb&w=1920"
           alt={translations.home.hero.title}
           fill
           className="object-cover"

@@ -1,10 +1,5 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import BigbungalovImage from '/images/bigbungalov.jpeg';
-import NormalodaImage from '/images/normaloda.jpeg';
-import DeluxeodaImage from '/images/deluxeoda.jpeg';
-import NormaltasevImage from '/images/normaltasev.jpeg';
-import Deluxetasev2Image from '/images/deluxetasev2.jpeg';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
@@ -34,28 +29,28 @@ export default async function AccommodationPage({ params: { locale } }: Accommod
       title: translations.accommodation.rooms.normalRoom.title,
       description: translations.accommodation.rooms.normalRoom.description,
       count: translations.accommodation.rooms.normalRoom.count,
-      image: NormalodaImage,
+      image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800',
       amenities: ['WiFi', 'Klima', '2 Kişilik', 'Banyo']
     },
     {
       title: translations.accommodation.rooms.deluxeRoom.title,
       description: translations.accommodation.rooms.deluxeRoom.description,
       count: translations.accommodation.rooms.deluxeRoom.count,
-      image: DeluxeodaImage,
+      image: 'https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg?auto=compress&cs=tinysrgb&w=800',
       amenities: ['WiFi', 'Klima', '2+2 Kişilik', 'Geniş oda']
     },
     {
       title: translations.accommodation.rooms.normalStoneHouse.title,
       description: translations.accommodation.rooms.normalStoneHouse.description,
       count: translations.accommodation.rooms.normalStoneHouse.count,
-      image: NormaltasevImage,
+      image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800',
       amenities: ['WiFi', 'Çift Banyo','2+2 Kişilik']
     },
     {
       title: translations.accommodation.rooms.deluxeStoneHouse.title,
       description: translations.accommodation.rooms.deluxeStoneHouse.description,
       count: translations.accommodation.rooms.deluxeStoneHouse.count,
-      image: Deluxetasev2Image,
+      image: 'https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=800',
       amenities: ['WiFi', 'Çift Kat', '5+2 Kişilik','Çift Banyo']
     }
   ];
@@ -84,7 +79,7 @@ export default async function AccommodationPage({ params: { locale } }: Accommod
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <Image
-          src={BigbungalovImage}
+          src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1920"
           alt={translations.accommodation.title}
           fill
           className="object-cover"
