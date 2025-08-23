@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "restaurant": "Restoran",
+    "accommodation": "Konaklama",
+    "blog": "Blog",
+    "contact": "İletişim"
+  },
+  "cta": {
+    "bookNow": "Rezervasyon Yap",
+    "getDirections": "Yol Tarifi Al",
+    "viewMore": "Daha Fazla",
+    "backHome": "Ana Sayfa'ya Dön"
+  },
+  "hours": {
+    "opening": "Açılış – Kapanış: 09:00 – 22:00"
+  },
+  "home": {
+    "hero": {
+      "title": "Modatepe Restoran & Konaklama",
+      "subtitle": "Trabzon Ortahisar'ın muhteşem manzarasında, yöresel lezzetlerimiz ve konforlu konaklama hizmetimizle size unutulmaz anlar yaşatıyoruz. Doğayla iç içe, huzurlu bir ortamda misafirperverliğimizi deneyimleyin.",
+      "accommodation": "Konaklama"
+    },
+    "highlights": {
+      "title": "Öne Çıkanlar",
+      "scenic": {
+        "title": "Manzaralı Konum",
+        "description": "Trabzon'un en güzel noktalarından birinde, doğayla iç içe bir konumda yer alan tesisimiz."
+      },
+      "local": {
+        "title": "Yöresel Lezzetler",
+        "description": "Karadeniz mutfağının en seçkin lezzetlerini, taze ve kaliteli malzemelerle sunuyoruz."
+      },
+      "comfort": {
+        "title": "Konforlu Konaklama",
+        "description": "Modern konforu geleneksel mimariye harmanlayan odalarımızda huzurlu bir konaklama."
+      }
+    },
+    "gallery": {
+      "title": "Galeri"
+    },
+    "location": {
+      "title": "Konumumuz"
+    }
+  },
+  "restaurant": {
+    "title": "Restoranımız",
+    "intro": "Karadeniz mutfağının en seçkin lezzetlerini modern sunum teknikleri ile buluşturuyoruz. Taze ve kaliteli malzemelerle hazırlanan yemeklerimiz, muhteşem manzara eşliğinde unutulmaz bir deneyim sunar.",
+    "menu": {
+      "title": "Menümüz",
+      "breakfast": "Kahvaltı",
+      "mainCourses": "Ana Yemekler",
+      "desserts": "Tatlılar"
+    },
+    "gallery": {
+      "title": "Restoran Galerisi"
+    }
+  },
+  "accommodation": {
+    "title": "Konaklama",
+    "intro": "Doğanın kucağında, modern konforu geleneksel mimariye harmanlayan odalarımızda huzurlu bir konaklama deneyimi yaşayın. Her odamız özenle tasarlanmış ve konfor düşünülerek dekore edilmiştir.",
+    "rooms": {
+      "title": "Konaklama seçenekleri",
+      "normalRoom": {
+        "title": "Deluxe Oda",
+        "description": "Modern konforu geleneksel dokunuşlarla harmanlayan standart odalarımız. 2 adet mevcuttur.",
+        "count": "2 Oda"
+      },
+      "deluxeRoom": {
+        "title": "Suit Oda",
+        "description": "Geniş ve lüks tasarımlı odamız, özel konuklarımız için ekstra konforu sunar.",
+        "count": "1 Oda"
+      },
+      "normalStoneHouse": {
+        "title": "Alaçatı Taş Ev",
+        "description": "Geleneksel taş mimariye sahip evlerimiz, otantik bir konaklama deneyimi sunar.",
+        "count": "2 Ev"
+      },
+      "deluxeStoneHouse": {
+        "title": "Modatepe Taş Ev",
+        "description": "Lüks donanımlı taş evimiz, geniş aileler ve özel misafirler için idealdir.",
+        "count": "1 Ev"
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "q1": "Check-in ve check-out saatleri nedir?",
+      "a1": "Check-in: 14:00, Check-out: 12:00",
+      "q2": "WiFi hizmeti var mı?",
+      "a2": "Evet, tüm odalarda ücretsiz WiFi hizmeti mevcuttur.",
+      "q3": "Otopark imkanı var mı?",
+      "a3": "Evet, misafirlerimiz için ücretsiz otopark hizmeti bulunmaktadır.",
+      "q4": "Evcil hayvan kabul ediliyor mu?",
+      "a4": "Evcil hayvanlarınızla ilgili önceden bilgi vermeniz durumunda uygun koşullarda kabul edilmektedir."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "readMore": "Devamını Oku",
+    "relatedPosts": "İlgili Yazılar",
+    "backToList": "Blog Listesi'ne Dön"
+  },
+  "contact": {
+    "title": "İletişim",
+    "info": {
+      "title": "İletişim Bilgileri",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "address": "Adres",
+      "hours": "Çalışma Saatleri"
+    },
+    "forms": {
+      "contact": {
+        "title": "İletişim Formu",
+        "name": "Ad Soyad",
+        "email": "E-posta",
+        "phone": "Telefon",
+        "message": "Mesaj",
+        "submit": "Gönder",
+        "success": "Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.",
+        "error": "Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyiniz."
+      },
+      "feedback": {
+        "title": "Şikayet & Öneri Formu",
+        "category": "Kategori",
+        "complaint": "Şikayet",
+        "suggestion": "Öneri",
+        "submit": "Gönder",
+        "success": "Geri bildiriminiz başarıyla gönderildi. Değerli görüşünüz için teşekkür ederiz.",
+        "error": "Form gönderilirken bir hata oluştu. Lütfen tekrar deneyiniz."
+      },
+      "privacy": {
+        "text": "Kişisel verilerinizin KVKK kapsamında işleneceğini kabul ediyorum.",
+        "required": "Gizlilik politikasını kabul etmelisiniz."
+      }
+    }
+  },
+  "footer": {
+    "quickLinks": "Hızlı Bağlantılar",
+    "socialMedia": "Sosyal Medya",
+    "copyright": "© 2025 Modatepe Restoran & Konaklama. Tüm hakları saklıdır."
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+    "backHome": "Ana Sayfa'ya Dön"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar Dene"
+  }
+}

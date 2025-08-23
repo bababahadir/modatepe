@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "home": "Home",
+    "restaurant": "Restaurant",
+    "accommodation": "Accommodation",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "cta": {
+    "bookNow": "Book Now",
+    "getDirections": "Get Directions",
+    "viewMore": "View More",
+    "backHome": "Back to Home"
+  },
+  "hours": {
+    "opening": "Opening Hours: 09:00 – 22:00"
+  },
+  "home": {
+    "hero": {
+      "title": "Modatepe Restaurant & Accommodation",
+      "subtitle": "Experience unforgettable moments with our local cuisine and comfortable accommodation service in the magnificent view of Trabzon Ortahisar. Experience our hospitality in a peaceful environment surrounded by nature.",
+      "accommodation": "Accommodation"
+    },
+    "highlights": {
+      "title": "Highlights",
+      "scenic": {
+        "title": "Scenic Location",
+        "description": "Our facility is located in one of the most beautiful spots of Trabzon, in a location surrounded by nature."
+      },
+      "local": {
+        "title": "Local Flavors",
+        "description": "We serve the finest flavors of Black Sea cuisine with fresh and quality ingredients."
+      },
+      "comfort": {
+        "title": "Comfortable Accommodation",
+        "description": "A peaceful accommodation in our rooms that blend modern comfort with traditional architecture."
+      }
+    },
+    "gallery": {
+      "title": "Gallery"
+    },
+    "location": {
+      "title": "Our Location"
+    }
+  },
+  "restaurant": {
+    "title": "Our Restaurant",
+    "intro": "We bring together the finest flavors of Black Sea cuisine with modern presentation techniques. Our dishes prepared with fresh and quality ingredients offer an unforgettable experience with a magnificent view.",
+    "menu": {
+      "title": "Our Menu",
+      "breakfast": "Breakfast",
+      "mainCourses": "Main Courses",
+      "desserts": "Desserts"
+    },
+    "gallery": {
+      "title": "Restaurant Gallery"
+    }
+  },
+  "accommodation": {
+    "title": "Accommodation",
+    "intro": "Experience a peaceful accommodation in the embrace of nature, in our rooms that blend modern comfort with traditional architecture. Each of our rooms is carefully designed and decorated with comfort in mind.",
+    "rooms": {
+      "title": "Room Types",
+      "normalRoom": {
+        "title": "Standard Room",
+        "description": "Our standard rooms that blend modern comfort with traditional touches. 2 rooms available.",
+        "count": "2 Rooms"
+      },
+      "deluxeRoom": {
+        "title": "Deluxe Room",
+        "description": "Our spacious and luxuriously designed room offers extra comfort for our special guests.",
+        "count": "1 Room"
+      },
+      "normalStoneHouse": {
+        "title": "Standard Stone House",
+        "description": "Our houses with traditional stone architecture offer an authentic accommodation experience.",
+        "count": "2 Houses"
+      },
+      "deluxeStoneHouse": {
+        "title": "Deluxe Stone House",
+        "description": "Our luxuriously equipped stone house is ideal for large families and special guests.",
+        "count": "1 House"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "What are the check-in and check-out times?",
+      "a1": "Check-in: 2:00 PM, Check-out: 12:00 PM",
+      "q2": "Is WiFi available?",
+      "a2": "Yes, free WiFi service is available in all rooms.",
+      "q3": "Is parking available?",
+      "a3": "Yes, free parking service is available for our guests.",
+      "q4": "Are pets allowed?",
+      "a4": "Pets are accepted under suitable conditions provided you inform us in advance."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "readMore": "Read More",
+    "relatedPosts": "Related Posts",
+    "backToList": "Back to Blog List"
+  },
+  "contact": {
+    "title": "Contact",
+    "info": {
+      "title": "Contact Information",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "hours": "Working Hours"
+    },
+    "forms": {
+      "contact": {
+        "title": "Contact Form",
+        "name": "Full Name",
+        "email": "Email",
+        "phone": "Phone",
+        "message": "Message",
+        "submit": "Send",
+        "success": "Your message has been sent successfully. We will get back to you as soon as possible.",
+        "error": "An error occurred while sending the message. Please try again."
+      },
+      "feedback": {
+        "title": "Complaint & Suggestion Form",
+        "category": "Category",
+        "complaint": "Complaint",
+        "suggestion": "Suggestion",
+        "submit": "Send",
+        "success": "Your feedback has been sent successfully. Thank you for your valuable opinion.",
+        "error": "An error occurred while submitting the form. Please try again."
+      },
+      "privacy": {
+        "text": "I accept that my personal data will be processed within the scope of GDPR.",
+        "required": "You must accept the privacy policy."
+      }
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "socialMedia": "Social Media",
+    "copyright": "© 2025 Modatepe Restaurant & Accommodation. All rights reserved."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or may have been moved.",
+    "backHome": "Back to Home"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try Again"
+  }
+}
