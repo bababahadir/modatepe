@@ -6,12 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "echo '@vercel/analytics yüklendi!'"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@next/swc-wasm-nodejs": "^15.5.1-canary.5",
-    "@next/swc-wasm-nodejs": "^14.2.0",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-alert-dialog": "^1.1.1",
     "@radix-ui/react-aspect-ratio": "^1.1.0",
@@ -44,6 +44,7 @@
     "@types/nodemailer": "^7.0.1",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
+    "@vercel/analytics": "^3.2.0",
     "autoprefixer": "10.4.15",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
