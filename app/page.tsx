@@ -1,4 +1,3 @@
-import { redirect } from 'next/navigation'
 import Head from "next/head";
 
 export default function Home() {
@@ -11,7 +10,6 @@ export default function Home() {
           content="Trabzon’un en güzel kahvaltı ve et restoranı Modatepe. Manzaralı kahvaltı, kaliteli et lezzetleri ve sıcak ortam. Hemen rezervasyon yapın!"
         />
 
-        {/* ✅ JSON-LD Snippet */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -33,7 +31,7 @@ export default function Home() {
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "4.6",
-                reviewCount: "1000+",
+                reviewCount: 1000, // sayısal
               },
               openingHours: "Mo-Su 08:00-23:00",
             }),
@@ -47,8 +45,10 @@ export default function Home() {
     </>
   );
 }
+// pages/index.js
+import { redirect } from 'next/navigation';
 
 export default function RootPage() {
-  // Redirect to default locale (Turkish)
-  redirect('/tr')
+  redirect('/tr');
 }
+
